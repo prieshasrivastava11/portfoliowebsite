@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priesha Srivastava Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .home-bg {
+      background: linear-gradient(rgba(248, 199, 205, 0.877), rgba(250, 242, 242, 0.708)), url('path/to/your-background.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+    .navbar {
+      background-color: #212121;
+    }
+    .navbar-brand, .nav-link {
+      color: #f3f4f6 !important;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      color: rgba(248, 199, 205, 0.877) !important;
+    }
+    .home-content h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .home-content p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .home-buttons .btn {
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      <a class="navbar-brand">Priesha Srivastava</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">My Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="home-bg">
+    <div class="home-content mx-auto" style="color: #212121; margin-top: 5px;">
+      <h1 title="large">Hello I'm Priesha Srivastava</h1>
+      <p>Welcome to my Design Portfolio!</p>
+      <div class="home-buttons">
+        <a href="about.html" class="btn btn-outline-dark">About Me</a>
+        <a href="portfolio.html" class="btn btn-outline-dark">My Work</a>
+      </div>
+      <img src="img/pri logo.png" style="margin-top: 80px;">
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
